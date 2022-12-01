@@ -19,18 +19,18 @@ Install dependencies:
     veracode_api_key_id = <YOUR_API_KEY_ID>
     veracode_api_key_secret = <YOUR_API_KEY_SECRET>
 
-## usage for a single app profile or and app profile with a sandbox
+## usage
 
-usage: veracode_get_user_list.py [-h] [-u USER] [--all] [--file]
+    usage: veracode_get_user_list.py [-h] [-u USER] [--all] [--file]
 
-This script takes a user name and generates a list of their attributes or --all will generate a list of all users and
-attributes.
+    This script takes a user name and generates a list of their attributes or --all will generate a list of all users and
+    attributes.
 
-options:
-  -h, --help            show this help message and exit
-  -u USER, --user USER  print attributes for this user
-  --all                 If set to True information for all users will be generated
-  --file                If set to True information will be placed in a file called user_list.csv
+    options:
+      -h, --help            show this help message and exit
+      -u USER, --user USER  print attributes for this user
+      --all                 If set to True information for all users will be generated
+      --file                If set to True information will be placed in a file called user_list.csv
 
 ## Run
 
