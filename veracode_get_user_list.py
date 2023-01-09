@@ -8,6 +8,7 @@ headers = {"User-Agent": "Python HMAC Example"}
 
 def main():
 
+# test comment
     parser = argparse.ArgumentParser(
         description='This script takes a user name and generates a list of their attributes or --all will generate a list of all users and attributes.')
     parser.add_argument('-u', '--user', help='print attributes for this user',required=False)
